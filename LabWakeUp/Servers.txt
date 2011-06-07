@@ -1,9 +1,1 @@
-﻿ironman
-thor
-scarletwitch
-hawkeye
-antman
-hulk
-wasp
-yellowjacket
-vision
+﻿
