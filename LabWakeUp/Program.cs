@@ -155,19 +155,16 @@ namespace LabWakeUp
                 using (var sr = new StreamReader("Servers.txt"))
                 {
                     string line;
-                    var macstring = "";
                     while ((line = sr.ReadLine()) != null)
                     {
                         try
                         {
                             var mac = GetMACAddress(line);
-                            macstring = ByteArrayToString(mac).ToUpper();
+                            CheckServerList(line, ByteArrayToString(mac).ToUpper());
                         }
                         catch (Exception)
                         {
-                            MessageBox.Show(line + @" Not Found On Network");
                         }
-                        CheckServerList(line,macstring);
                     }
                 }
             }
