@@ -4,3 +4,5 @@ Just a little program I wrote to manage my windows based lab machines.
 Put a single server name per line in servers.txt.
 On startup the program will attempt to find all the MAC addresses and add them to ServerMACs.txt.
 Now you can choose a server from the drop down and ether shut it down or send it a magic packet to turn it on.
+
+Get latest release in binary form here https://github.com/SQLServerIO/LabWakeUp/blob/master/Release.zip
